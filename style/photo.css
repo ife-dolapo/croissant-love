@@ -1,3 +1,9 @@
+:root {
+  --background-color: #c7936a;
+  --link-color: #13826b;
+  --primary-color: rgb(137, 18, 18);
+}
+
 img {
   border: 10px solid var(--primary-color);
   width: 100%;
@@ -5,7 +11,20 @@ img {
   border-radius: 15px;
 }
 
-div.pages {
+.pages {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  color: var(--link-color);
+  text-decoration: none;
+  cursor: grab;
+}
+
+.pages:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 576px) {
+  img {
+    display: block;
+  }
 }

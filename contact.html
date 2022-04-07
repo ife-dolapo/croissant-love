@@ -6,17 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
   </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="style/homepagestyle.css" />
   <body>
-    <h1>📩 Contact Us</h1>
-    <span
+    <h1 class="d-block text-center mt-3 mb-3">📩 Contact Us</h1>
+    <span class="d-block text-center"
       >🥐
       <a href="mailto:croissantlove@croissant.com"
         >croissantlove@croissant.com</a
       ></span
     >
-    <div class="container">
-      <div><a href="/">Home</a></div>
-      <div><a href="/photo.html">Photo</a></div>
+    <div
+      class="container d-flex justify-content-around mt-3 pt-3 pb-3 bg-danger border rounded"
+      style="--bs-bg-opacity: 0.95"
+    >
+      <div><a href="/" class="border rounded p-2 links">Home</a></div>
+      <div>
+        <a href="/photo.html" class="border rounded p-2 links">Photo</a>
+      </div>
     </div>
   </body>
 </html>
